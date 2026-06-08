@@ -1,0 +1,68 @@
+:root {
+	background-color: deepskyblue ;
+}
+
+
+@font-face {
+	font-family: "cedar";
+	src: url("/Fonts/CedarvilleCursive-Regular.ttf") format('truetype');
+}
+
+@font-face {
+	font-family: "kaushan";
+	src: url("/Fonts/KaushanScript-Regular.ttf") format('truetype');
+}
+
+@font-face {
+	font-family: "mono";
+	src: url("/Fonts/LibertinusMono-Regular.ttf") format('truetype');
+}
+
+h1, h2, h3, p, ul, ol, li {
+	margin: 0;
+}
+
+p{
+	font-family: cedar;
+}
+
+h1{ 
+	font-family: kaushan;
+ }
+
+.main-paper {
+	background-color: antiquewhite ;
+	width: 650px ;
+	margin: 25px auto ;
+	padding: 25px ;
+	box-shadow: 2px 2px 5px #00A8;
+	transform: rotate(-0.25deg);
+}
+
+
+.to-from {
+	display: flex ;
+	justify-content: space-start;
+	gap: 25px ;
+	align-items: baseline;
+	h2{
+		font-family: mono;
+	}
+}
+
+.tofrom-underline {
+	width: 7em;
+	height: 1em;
+	border-bottom: 1px solid black;
+	display: inline-block ;
+	font-family: kaushan;
+}
+
+.sub-paper {
+	background-color: whitesmoke;
+	padding: 25px;
+	box-shadow: 2px 2px 5px #AAAAAAAA;
+	transform: rotate(0.5deg);
+	margin: 25px 0px;
+
+}
